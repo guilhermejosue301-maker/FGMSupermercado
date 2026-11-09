@@ -14,6 +14,7 @@ pip install -r requirements.txt
 flask --app app init-db
 flask --app app criar-admin
 flask --app app run
+Crie um login e senha para conseguir acessar!
 ```
 Acesse http://127.0.0.1:5000 e entre com o usuário e a senha cadastrados.
 
