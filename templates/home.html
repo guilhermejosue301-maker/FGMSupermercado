@@ -1,0 +1,7 @@
+{% extends 'base.html' %}{% block title %}Menu Inicial{% endblock %}{% block content %}
+<div class="home-container"><h1 class="home-title">Menu Inicial</h1><div class="home-divider"></div><div class="home-grid">
+<a class="home-button" href="{{url_for('produtos')}}"><span class="home-icon">⊕</span>Cadastrar Produto</a>
+<a class="home-button" href="{{url_for('consulta')}}"><span class="home-icon">⌕</span>Consultar Estoque</a>
+<a class="home-button" href="{{url_for('movimentacoes')}}"><span class="home-icon">⇄</span>Movimentações</a>
+<a class="home-button" href="{{url_for('consulta',baixos=1)}}"><span class="home-icon">⚠</span>Alertas de Estoque</a>
+</div></div>{% endblock %}
